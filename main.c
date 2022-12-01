@@ -6,30 +6,50 @@
 
 int main () {
     
-   int x;
+    int x;
+    int y;
+
+
+   
+    scanf("%d  %d", &x ,&y);
+ 
+    
     
 
-    printf("enter number: ");
-    scanf("%d", &x);
-    
-    
-    
-
-    if(isStrong(x) == 1)
+    printf("The Armstrong numbers are:");
+    for (int i = x; i <= y; i++)
     {
-        printf("%d\n", x);
+        if (isArmstrong(i))
+        {
+            printf(" %d", i);
+        }
     }
     
-
-    isArmstrong(x);
-
+    printf("\nThe Palindromes are:");
+    for (int i = x; i <= y; i++)
+    {
+        if (isPalindrome(i))
+        {
+            printf(" %d", i);
+        }
+    }
+    printf("\nThe Prime numbers are:");
+    for (int i = x; i <= y; i++)
+    {
+        if (isPrime(i))
+        {
+            printf(" %d", i);
+        }
+    }
+    printf("\nThe Strong numbers are:");
+    for (int i = x; i <= y; i++)
+    {
+        if (isStrong(i))
+        {
+            printf(" %d", i);
+        }
+    }
     printf("\n");
-
-    isPalindrome(x);
-
-    printf("\n");
-
-    isPrime(x);
   
    return 0;
 }

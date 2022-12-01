@@ -35,11 +35,11 @@ int isStrong(int numInt){
     }
     if (sum == numberOriginal)
     {
-        printf("The Armstrong numbers are: %d\n", numberOriginal);
+       
         return 1;
     }
    
-    printf("%d is not stron number\n", numberOriginal);
+    
     return 0;
     
 }
@@ -60,7 +60,7 @@ int isPrime(int numInt)
      * @return 1. "true"
     */
     if(numInt==2){
-        printf("The Prime numbers are: %d\n", numInt);
+        
         return 1;
     }
 
@@ -69,8 +69,8 @@ int isPrime(int numInt)
  * If the numInt is divisible by 2 and different from 2 then it is not prime.
  * @return 0. "false"
 */
-    if(numInt%2==0){
-        printf("%d is not prime!!\n", numInt);
+    if(numInt%2==0)
+    {
         return 0;
     }
 
@@ -82,12 +82,12 @@ int isPrime(int numInt)
     {
         if(numInt%i == 0)
         {
-            printf("%d is not prime!!\n", numInt);
+            
             return 0;
         }
       
     }
-     printf("The Prime numbers are: %d\n", numInt);
+     
     return 1;
     
 }

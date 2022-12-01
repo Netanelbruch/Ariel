@@ -37,12 +37,11 @@ int isArmstrong(int numInt){
     }
 
     if(result == numInt){
-        printf("%d is an Armstrong\n", numInt);
         return 1;
     }
 
 
-    printf("%d is not an Armstrong", numInt);
+    
     return 0;
 }
 
@@ -66,11 +65,11 @@ int isPalindrome(int numInt){
   
     if(numberOrginal==sum)
     {
-        printf("%d is palindrome.\n", numberOrginal);   
+          
         return 1;
     }  
  
-    printf("%d is not palindrome.\n", numberOrginal);  
+     
     
     return 0;
 }
