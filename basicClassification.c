@@ -35,7 +35,7 @@ int isStrong(int numInt){
     }
     if (sum == numberOriginal)
     {
-        printf("%d is srong number\n", numberOriginal);
+        printf("The Armstrong numbers are: %d\n", numberOriginal);
         return 1;
     }
    
@@ -60,7 +60,7 @@ int isPrime(int numInt)
      * @return 1. "true"
     */
     if(numInt==2){
-        printf("%d is prime!!\n", numInt);
+        printf("The Prime numbers are: %d\n", numInt);
         return 1;
     }
 
@@ -87,7 +87,7 @@ int isPrime(int numInt)
         }
       
     }
-     printf("%d is prime!!\n", numInt);
+     printf("The Prime numbers are: %d\n", numInt);
     return 1;
     
 }

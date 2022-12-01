@@ -70,7 +70,7 @@ int isArmstrong(int num)
 
     if(temp == num)
     {
-        printf("%d It is an Armstrong Number\n", num);
+        printf("The Armstrong numbers are: %d\n", num);
         return 1;
     }
     else
@@ -90,7 +90,7 @@ int isPalindrome(int num)
 
     if (secNum == 0)
     {
-        printf("is palindrome\n");
+        printf("The Palindromes are: %d\n", num);
         return 1 ;
     }
 

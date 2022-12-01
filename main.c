@@ -6,29 +6,30 @@
 
 int main () {
     
-    int x;
+   int x;
+    
 
     printf("enter number: ");
-    scanf("%d", &x)
+    scanf("%d", &x);
     
     
-    x=isStrong();
+    
 
-    if(x==1)
+    if(isStrong(x) == 1)
     {
         printf("%d\n", x);
     }
     
 
-    isArmstrong(153);
+    isArmstrong(x);
 
     printf("\n");
 
-    isPalindrome(11);
+    isPalindrome(x);
 
     printf("\n");
 
-    isPrime(21);
+    isPrime(x);
   
    return 0;
 }
